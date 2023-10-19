@@ -8,7 +8,7 @@ export function Carousel() {
             <Box w={170} h={95} bgColor={'#4bc4cc'} />
             <View style={styles.scrollBottom}>
                 <Point />
-                <Point />
+                <Point actived={true} />
                 <Point />
                 <Point />
                 <Point />

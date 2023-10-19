@@ -1,15 +1,15 @@
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
-export function Point() {
+export function Point(actived=false) {
+    const bgColor = (actived)? '#4bcfff':'#4bc4cc';
+
     return (
-        <View style={styles.circle} />
+        <View
+            style={{
+                padding: 4,
+                borderRadius: 200,
+                backgroundColor: bgColor,
+            }}
+        />
     );
 };
-
-const styles = StyleSheet.create({
-    circle: {
-        padding: 4,
-        borderRadius: 100,
-        backgroundColor: '#4bc4cc',
-    }
-});
