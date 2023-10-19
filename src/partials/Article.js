@@ -12,6 +12,7 @@ export function Article() {
                 </View>
                 <View style={{width: '35%'}}>
                     <Box w={15} h={40} bgColor={'#4bc4cc'} />
+                    <View style={styles.subTitle} />
                 </View>
             </View>
         </View>
@@ -32,5 +33,14 @@ const styles = StyleSheet.create({
     },
     column: {
         width: '50%'
+    },
+    subTitle: {
+        width: 110,
+        height: 20,
+        borderRadius: 5,
+        backgroundColor: '#3f79cb',
+        position: 'absolute',
+        top: 70,
+        left: 15,
     }
 });
