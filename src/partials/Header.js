@@ -4,7 +4,7 @@ import { Box } from '../components/Box';
 export function Header() {
 	return (
 		<View style={headerStyle.section}>
-			<Box w={20} h={20} bgColor={'#3f79ab'} />
+			<Box w={20} h={20} bgColor={'#3f79ab'} icon={"arrow-back"} />
 			<View style={[headerStyle.box, {backgroundColor: '#3f79ab', widht: 70, height: 10, paddingHorizontal: 70}]} />
 			<Box w={20} h={20} bgColor={'#3f79ab'} />
 		</View>

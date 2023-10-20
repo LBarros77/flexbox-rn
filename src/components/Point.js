@@ -1,6 +1,6 @@
 import { View } from 'react-native';
 
-export function Point(actived=false) {
+export function Point(actived) {
     const bgColor = (actived)? '#4bcfff':'#4bc4cc';
 
     return (

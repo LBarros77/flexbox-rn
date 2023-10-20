@@ -5,7 +5,7 @@ import { Box } from '../components/Box';
 export function Carousel() {
     return (
         <View style={styles.section}>
-            <Box w={170} h={95} bgColor={'#4bc4cc'} />
+            <Box w={170} h={95} bgColor={'#4bc4cc'} icon={'iconfontdesktop'} />
             <View style={styles.scrollBottom}>
                 <Point />
                 <Point actived={true} />
